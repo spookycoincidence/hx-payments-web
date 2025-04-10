@@ -19,9 +19,9 @@ Este proyecto fue concebido como un challenge técnico autoasistido, diseñado p
 
 ## 🛠️ Tecnologías usadas
 
-- HTML5               | Estructura de las vistas y componentes   
-- CSS3                | Estilos generales, diseño responsivo y layout 
-- JavaScript          | Lógica de interacción y comportamiento básico
+- HTML5 / Estructura de las vistas y componentes   
+- CSS3 / Estilos generales, diseño responsivo y layout 
+- JavaScript / Lógica de interacción y comportamiento básico
 
 ## 🧠 ¿Por qué este stack?
 
@@ -34,12 +34,6 @@ Elegi una solución estática basada en HTML, CSS y JavaScript puro para constru
 
 > En futuras versiones se prevé la integración de frameworks como React.
 
-## 📁 Estructura del proyecto
-
-```bash
-hx-payments-web/ │ ├── css/ │ └── style.css │ ├── js/ │ └── main.js │ ├── index.html ├── login.html ├── dashboard.html ├── deposit.html ├── send.html ├── transfer.html ├── transactions.html ├── history.html └── profile.html
-
-```
 
 ## 🔄 Integración con el backend
 
