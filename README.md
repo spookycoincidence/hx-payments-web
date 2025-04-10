@@ -59,6 +59,13 @@ Este proyecto fue diseñado previamente en Figma. A continuación, se muestran a
 ![Dashboard Mobile](./docs/assets/dashboard-mobile.png)
 ![Dashboard Mobile](./docs/assets/dashboard-mobile2.png)
 
+🚀 Deployment
+El proyecto fue desplegado utilizando Vercel para su visualización rápida y pública.
+Actualmente, se encuentra disponible la primera pantalla (login) como maqueta visual.
+
+🔗 Demo online:
+https://hx-payments-63vxairvs-spookycoincidences-projects.vercel.app/
+
 ## 🧪 Cómo probar el proyecto localmente
 
 1. Clonar el repositorio:
