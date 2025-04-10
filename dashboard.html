@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Cuenta</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">hx-payments</div>
+    <ul class="nav-links">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Enviar</a></li>
+      <li><a href="#">Recibir</a></li>
+      <li><a href="#">Perfil</a></li>
+      <li><a href="#" onclick="logout()">Salir</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Bienvenido, <span id="userEmail"></span></h1>
+    <h2>Saldo disponible: <span id="balance"></span></h2>
+
+    <h3>Movimientos recientes</h3>
+    <ul id="movementsList"></ul>
+  </div>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
+
