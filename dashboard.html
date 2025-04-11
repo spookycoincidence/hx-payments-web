@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi Cuenta</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard | HX Wallet</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <nav class="navbar">
-    <div class="logo">hx-payments</div>
-    <ul class="nav-links">
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Enviar</a></li>
-      <li><a href="#">Recibir</a></li>
-      <li><a href="#">Perfil</a></li>
-      <li><a href="#" onclick="logout()">Salir</a></li>
-    </ul>
-  </nav>
+  <div class="dashboard-container">
+    <h1>Hola, Huilen 👋</h1>
+    <section class="saldo">
+      <h2>Saldo disponible</h2>
+      <p class="monto">$12.500</p>
+    </section>
 
-  <div class="container">
-    <h1>Bienvenido, <span id="userEmail"></span></h1>
-    <h2>Saldo disponible: <span id="balance"></span></h2>
+    <section class="acciones">
+      <button onclick="location.href='transfer.html'">💸 Transferir</button>
+      <button onclick="location.href='historial.html'">📜 Historial</button>
+    </section>
 
-    <h3>Movimientos recientes</h3>
-    <ul id="movementsList"></ul>
+    <section class="ultimos-movimientos">
+      <h2>Últimos movimientos</h2>
+      <ul>
+        <li>
+          <strong>+ $3.000</strong> – Transferencia de Joaquín <span class="fecha">11 abr</span>
+        </li>
+        <li>
+          <strong>- $1.200</strong> – Pago en librería <span class="fecha">10 abr</span>
+        </li>
+        <li>
+          <strong>+ $2.500</strong> – Recarga saldo <span class="fecha">8 abr</span>
+        </li>
+      </ul>
+    </section>
   </div>
-
-  <script src="js/dashboard.js"></script>
 </body>
 </html>
 
