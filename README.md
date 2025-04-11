@@ -66,7 +66,7 @@ El proyecto fue desplegado utilizando Vercel para su visualización rápida y p�
 Actualmente, se encuentra disponible la primera pantalla (login) como maqueta visual.
 
 🔗 Demo online:
-https://hx-payments-63vxairvs-spookycoincidences-projects.vercel.app/
+https://hx-payments-web-a822-gchxte9ru-spookycoincidences-projects.vercel.app/login.html
 
 
 ## 🧪 Cómo probar el proyecto localmente
