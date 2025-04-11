@@ -56,8 +56,9 @@ Este proyecto fue diseñado previamente en Figma. A continuación, se muestran a
 
 ### 📱 Versión Mobile
 
-![Dashboard Mobile](./docs/assets/dashboard-mobile.png)
-![Dashboard Mobile](./docs/assets/dashboard-mobile2.png)
+![Dashboard Mobile](./docs/assets/dashboard-mobile2.jpeg)
+![Dashboard Mobile](./docs/assets/dashboard-mobile.jpeg)
+
 
 
 🚀 Deployment
@@ -66,8 +67,6 @@ Actualmente, se encuentra disponible la primera pantalla (login) como maqueta vi
 
 🔗 Demo online:
 https://hx-payments-63vxairvs-spookycoincidences-projects.vercel.app/
-
-
 
 
 ## 🧪 Cómo probar el proyecto localmente
